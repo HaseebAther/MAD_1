@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/flash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spanish Flashcard"
+        android:textColor="@color/white"
+        android:background="#3E3E3E"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flash"
+    android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:padding="7sp"
+        android:text="Ready to Speak"
+        android:textSize="20sp"
+        android:backgroundTint="#D9D8D8"
+        android:textColor="@color/black"
+        app:cornerRadius="8sp" />
+
+    <Button
+        android:id="@+id/new_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flash"
+        android:layout_toRightOf="@id/speak"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#D9D8D8"
+        android:padding="2sp"
+        android:text="New Word"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="8sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flash"
+        android:layout_toRightOf="@id/new_"
+        android:layout_marginRight="8dp"
+        android:padding="7sp"
+        android:text="Show"
+        android:textSize="20sp"
+        android:backgroundTint="#D9D8D8"
+        android:textColor="@color/black"
+        app:cornerRadius="8sp" />
+
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 Correct"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/speak" />
+
+    <TextView
+        android:id="@+id/amingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amingo \n friend"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="People"
+        android:textColor="@color/white"
+      android:layout_above="@id/all"
+        android:textSize="30sp"
+         />
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+       android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:padding="7sp"
+        android:text="All"
+        android:textSize="20sp"
+        android:backgroundTint="#D9D8D8"
+        android:textColor="@color/black"
+        app:cornerRadius="8sp" />
+
+    <Button
+        android:id="@+id/NotMarked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:padding="7sp"
+        android:text="Not Marked"
+        android:textSize="20sp"
+        android:backgroundTint="#D9D8D8"
+        android:textColor="@color/black"
+        app:cornerRadius="8sp" />
+
+</RelativeLayout>

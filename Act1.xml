@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:flow_horizontalGap="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Adress"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#282828"
+        android:text="+"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E00000"
+                android:text="Home"
+                app:cornerRadius="10dp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:text="email@gmail.com" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#282828"
+
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <Button
+                android:id="@+id/button2231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E00000"
+                android:text="Down"
+                app:cornerRadius="10dp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:text="newemail@gmail.com" />
+
+            <Button
+                android:id="@+id/button133"
+                android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                  android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:backgroundTint="#282828"
+                android:text="@string/minus"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E00000"
+                android:text="Down"
+                app:cornerRadius="10dp" />
+
+            <EditText
+                android:id="@+id/editAddress45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:text="newemail@gmail.com" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:backgroundTint="#282828"
+                android:text="@string/minus"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <Button
+                android:id="@+id/butto122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E00000"
+                android:text="Down"
+                app:cornerRadius="10dp" />
+
+            <EditText
+                android:id="@+id/editTlAddress45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:text="newemail@gmail.com" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:backgroundTint="#282828"
+                android:text="@string/minus"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

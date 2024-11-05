@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    >
+
+    <TextView
+        android:id="@+id/red_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:padding="4dp"
+        android:background="#DB0808"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:id="@+id/orange_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red_text"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/red_text"
+        android:background="#FF5722"
+        android:text="Orange"
+        />
+    <TextView
+        android:id="@+id/yellow_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:padding="4dp"
+        android:background="#FFC107"
+        android:textSize="24sp"
+        android:layout_below="@+id/orange_text"
+        android:layout_toRightOf="@+id/orange_text"
+        />
+    <TextView
+        android:id="@+id/green_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:padding="4dp"
+        android:background="#4CAF50"
+        android:textSize="24sp"
+        android:layout_below="@+id/yellow_text"
+        android:layout_toRightOf="@+id/yellow_text"
+        />
+
+
+    <TextView
+        android:id="@+id/blue_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:background="#03A9F4"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/green_text"
+        android:layout_toLeftOf="@+id/green_text"
+        />
+
+    <TextView
+        android:id="@+id/indigo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indigo"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:background="#4B0082"
+        android:layout_below="@+id/blue_text"
+        android:textColor="@color/white"
+        android:layout_toLeftOf="@+id/blue_text"
+        />
+
+    <TextView
+        android:id="@+id/voilet_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Voilet"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:background="#8A2BE2"
+        android:layout_below="@+id/indigo_text"
+        android:layout_toLeftOf="@+id/indigo_text"
+        />
+
+
+</RelativeLayout>
